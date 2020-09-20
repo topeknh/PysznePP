@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1>
+    <h1 style="text-align: center;">
         Pyszne pl
     </h1>
-    
+    <div class="all-view" id="main-div">
+        <select name="pizza" id="pizza" class="margin-bottom">
+        <option value="">-</option>
+        <option value="1">margarita</option>
+        <option value="2">pepperoni</option>
+        <option value="3">wiejska</option>
+        <option value="4">hawajska</option>
+        </select>
+
+    <div>
+        <input type="checkbox" id="pomidorowy" name="pomidorowy" class="margin-bottom">
+        <label for="pomidorowy">Pomidorowy</label>
+        <input type="checkbox" id="czosnkowy" name="czosnkowy" class="margin-bottom">
+        <label for="czosnkowy">czosnkowy</label>
+        <input type="checkbox" id="ostry pomidorowy" name="ostry pomidorowy" class="margin-bottom">
+        <label for="ostry pomidorowy">Ostry Pomidorowy</label>
+    </div>
+    <input type="text" name="nameC" class="margin-bottom">
+    <br>
+    <input type="email" name="email" class="margin-bottom" id="email" placeholder="email">
+    <br>
+    <input type="tel" name="tel" class="margin-bottom" id="tel" placeholder="telefon">
+    <br>
+    <input type="msg" name="msg" class="margin-bottom" id="msg" placeholder="msg">
+    <br>
+    <textarea name="msg" id="msg" cols="30" rows="10" class="margin-bottom" placeholder="wiadomść"></textarea>
+    <br>
+    <button class="btn margin-bottom" id=>Zamów</button>
+
+ </div>
+
+ <script src="../js/main.js"></script>
+
 </body>
 </html>
